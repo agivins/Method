@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*ISM 4300 Console Program- Submitted by Alexandra Givins
+ Comments: This code demonstrates the use of Method statements after getting input from users. 
+*/
+
+using System;
 
 
 
@@ -23,11 +27,7 @@ namespace Method
 
 
 
-        /*
-
-        Use the cath block to validate user input.
-
-        */
+      
 
         try
 
@@ -42,8 +42,8 @@ namespace Method
            
             Console.WriteLine("Please enter your name..");
             string name = Console.ReadLine();
-
-            Console.WriteLine("Hello  " + name + " " + "Go Bus!");
+                //Here is the the user input 
+                Console.WriteLine("Hello  " + name + " " + "Go Bus!");
 
                         Console.WriteLine("Press any key to exit the program...");
 
@@ -52,12 +52,16 @@ namespace Method
                         
 
                 }// end of try
+                 /*
 
-                catch
+           Use the cath block to validate user input.
 
-                {
+           */
+            catch
 
-                    Console.WriteLine("Please enter your name and try running the program again...");
+            {
+                // Pause the program and wait for the user to press a key to end the program
+                Console.WriteLine("Please enter your name and try running the program again...");
 
                     Console.WriteLine("Press any key to exit the program...");
 
